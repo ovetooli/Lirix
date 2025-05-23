@@ -282,3 +282,47 @@ li a:hover {
 .footer__menu {
     display: flex;
 }
+
+.separator {
+    margin: 1rem;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-top: 20px;
+
+}
+
+
+.socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.socials img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.socials img:hover {
+    transform: scale(1.1);
+
+}
+
+.socials img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
