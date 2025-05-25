@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: 'Cinzel Decorative', 'Source Sans 3', sans-serif;
+
 
 }
 
@@ -62,6 +63,7 @@ button,
 input,
 label {
   line-height: 1.1;
+
 }
 
 /* Balance text wrapping on headings */
@@ -70,12 +72,17 @@ h2,
 h3,
 h4 {
   text-wrap: balance;
+  font-family: 'Cinzel Decorative', 'Source Sans 3', sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
   color: currentColor;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Make images easier to work with */

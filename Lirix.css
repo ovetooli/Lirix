@@ -2,10 +2,15 @@ h1 {
     color: #FF4FA1;
     text-align: center;
     font-weight: 100;
-    letter-spacing: 3rem;
+    letter-spacing: 1rem;
     font-size: 4rem;
 
 }
+
+.lirix_font {
+    font-family: 'Cinzel Decorative', 'Source Sans 3', sans-serif;
+}
+
 
 button {
     color: #FF4FA1;
@@ -13,7 +18,13 @@ button {
 
 body {
     background: #fafafa;
+    text-size-adjust: auto;
 }
+
+a button {
+    all: unset;
+}
+
 
 #Listen {
     background-color: #FF4FA1;
@@ -24,6 +35,16 @@ body {
     border-radius: 1rem;
     padding: 1rem;
     transition: all ease 0.1s;
+}
+
+@keyframes SmoothMove {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100px);
+    }
 }
 
 #Listen:hover {
@@ -62,6 +83,31 @@ li a:hover {
     width: 100%;
     display: flex;
     align-items: center;
+    background-color: black;
+    mix-blend-mode: darken;
+    position: relative;
+}
+
+.hero_section__content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 1rem;
+    gap: 2rem;
+    text-shadow: 1px 1px 3px black;
+}
+
+.darken_background {
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    z-index: -1;
+    opacity: 60%;
 }
 
 .new_arrivals {
@@ -111,6 +157,7 @@ li a:hover {
 }
 
 .item {
+    font-weight: 500;
     width: 100%;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -127,6 +174,10 @@ li a:hover {
     background-color: #f873b1;
     color: #FFF;
     border: solid 1px white;
+}
+
+.item_title {
+    font-weight: 500;
 }
 
 /* Medium screens (md) */
@@ -292,11 +343,7 @@ li a:hover {
     gap: 20px;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    margin-left: 20px;
-    padding-top: 20px;
-
+    flex-direction: row;
 }
 
 
@@ -308,21 +355,51 @@ li a:hover {
 
 
 .socials img {
+    display: block;
     width: 40px;
     height: 40px;
     object-fit: contain;
     transition: transform 0.3s ease-in-out;
+    visibility: visible;
+    opacity: 1;
 }
 
 
 .socials img:hover {
     transform: scale(1.1);
-
-}
-
-.socials img {
     width: 40px;
     height: 40px;
     object-fit: contain;
     transition: transform 0.3s ease-in-out;
+
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.footer__right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-form {
+    display: block;
+}
+
+@media (width <=480px) {
+    .display-form {
+        display: none
+    }
+}
+
+.social-media-icon {
+    max-width: 100%;
+    height: auto;
 }
