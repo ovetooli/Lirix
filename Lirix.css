@@ -397,6 +397,18 @@ li a:hover {
     .display-form {
         display: none
     }
+
+    .hero_section__content {
+
+        max-width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin: 1rem;
+        gap: 2rem;
+        text-shadow: 1px 1px 3px black;
+    }
 }
 
 .social-media-icon {
