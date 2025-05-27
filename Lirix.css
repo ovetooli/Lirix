@@ -288,6 +288,10 @@ li a:hover {
     background-clip: text;
 }
 
+.title_gap {
+    margin: 2rem auto
+}
+
 .titles {
     font-size: 2rem;
     font-weight: 600;
