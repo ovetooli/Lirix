@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://ovetooli.github.io/Lirix/index.html</loc>
+    <loc>https://lirixverse.netlify.app/index.html</loc>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://ovetooli.github.io/Lirix/Merch.html</loc>
+    <loc>https://lirixverse.netlify.app/Merch.html</loc>
     <lastmod>2025-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://ovetooli.github.io/Lirix/Collections.html</loc>
+    <loc>https://lirixverse.netlify.app/Collections.html</loc>
     <lastmod>2025-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-</urlset>
 
- <url>
-    <loc>https://ovetooli.github.io/Lirix/Music.html</loc>
+  <url>
+    <loc>https://lirixverse.netlify.app/Music.html</loc>
     <lastmod>2025-05-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
 </urlset>
